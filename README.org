@@ -2,33 +2,32 @@ Here we compare existing neocortical layer 5 pyramidal cells from modeldb
 
 * Requirements
 
-**  neuron simulator (compiled with pyneuron)
-**  matplotlib
-**  numpy
+  neuron simulator (compiled with pyneuron)
+  matplotlib
+  numpy
 
 * Models currently tested for
 
-**  Traub et.al. - tuft IB Pyramidal cell - 2005
-**  Hays et.al. - BAC firing model - 2011
+  Traub et.al. - tuft IB Pyramidal cell - 2005
+  Hays et.al. - BAC firing model - 2011
 
 * In future
 
-**  Mainen et.al. - 1996
-**  Larkum et.al. - 2009
-**  Kole et.al. - 2008
+  Mainen et.al. - 1996
+  Larkum et.al. - 2009
+  Kole et.al. - 2008
 
 * To start
 
-** You will need to compile the mod files.
+  You will need to compile the mod files.
+  
+  > nrnivmodl mod_hay/ 
+  if you want to run the Hay cell model
+  or
+  >nrnivmodl mod_traub/
+  if you want to run the Traub cell model
 
-    > nrnivmodl mod_hay/ 
-    if you want to run the Hay cell model
-    or
-    >nrnivmodl mod_traub/
-    if you want to run the Traub cell model
-
-** [TODO] Having to compile each time user wants to run the scrips \\
-   is annoying - find a better way to do this.
+  [TODO] Having to compile each time user wants to run the scrips is annoying - find a better way to do this.
 
 * What do the scripts do?
 ** morph_compare.py
