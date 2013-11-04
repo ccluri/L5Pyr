@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/10/nrntraub/mod
+END
+naf.mod
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/naf.mod
+END
+alphasynkint.mod
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/alphasynkint.mod
+END
+cat.mod
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/cat.mod
+END
+kdr_fs.mod
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/kdr_fs.mod
+END
+kc_fast.mod
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/kc_fast.mod
+END
+ri.mod
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/ri.mod
+END
+iclamp_const.mod
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/iclamp_const.mod
+END
+kahp_slower.mod
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/kahp_slower.mod
+END
+nap.mod
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/nap.mod
+END
+alphasynkin.mod
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/alphasynkin.mod
+END
+napf.mod
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/napf.mod
+END
+rand.mod
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/rand.mod
+END
+naf2.mod
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/naf2.mod
+END
+zap.mod
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/10/nrntraub/mod/zap.mod
+END
+ka.mod
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/ka.mod
+END
+gabaa.mod
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/3/nrntraub/mod/gabaa.mod
+END
+kc.mod
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/kc.mod
+END
+ar.mod
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/ar.mod
+END
+ka_ib.mod
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/ka_ib.mod
+END
+km.mod
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/km.mod
+END
+cat_a.mod
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/cat_a.mod
+END
+kahp_deeppyr.mod
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/kahp_deeppyr.mod
+END
+traub_nmda.mod
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/3/nrntraub/mod/traub_nmda.mod
+END
+k2.mod
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/k2.mod
+END
+naf_tcr.mod
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/naf_tcr.mod
+END
+ampa.mod
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/3/nrntraub/mod/ampa.mod
+END
+vecevent.mod
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/4/nrntraub/mod/vecevent.mod
+END
+kdr.mod
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/kdr.mod
+END
+par_ggap.mod
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/par_ggap.mod
+END
+napf_spinstell.mod
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/napf_spinstell.mod
+END
+pulsesyn.mod
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/pulsesyn.mod
+END
+kahp.mod
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/kahp.mod
+END
+cad.mod
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/cad.mod
+END
+rampsyn.mod
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/rampsyn.mod
+END
+napf_tcr.mod
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/napf_tcr.mod
+END
+alphasyndiffeq.mod
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/alphasyndiffeq.mod
+END
+cal.mod
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Thalamocortical_loop_based_on_Traub/!svn/ver/2/nrntraub/mod/cal.mod
+END
