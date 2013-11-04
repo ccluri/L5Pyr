@@ -1,34 +1,41 @@
 Here we compare existing neocortical layer 5 pyramidal cells from modeldb
 
 * Requirements
-  neuron simulator (compiled with pyneuron)
-  matplotlib
-  numpy
+
+**  neuron simulator (compiled with pyneuron)
+**  matplotlib
+**  numpy
 
 * Models currently tested for
-  Traub et.al. - tuft IB Pyramidal cell - 2005
-  Hays et.al. - BAC firing model - 2011
+
+**  Traub et.al. - tuft IB Pyramidal cell - 2005
+**  Hays et.al. - BAC firing model - 2011
 
 * In future
-  Mainen et.al. - 1996
-  Larkum et.al. - 2009
-  Kole et.al. - 2008
+
+**  Mainen et.al. - 1996
+**  Larkum et.al. - 2009
+**  Kole et.al. - 2008
 
 * To start
-  You will need to compile the mod files.
-  [TODO] Having to compile each time user wants to run the scrips is annoying - find a better way to do this.
-  > nrnivmodl mod_hay/ 
-  if you want to run the Hay cell model
 
-  or
-  >nrnivmodl mod_traub/
-  if you want to run the Traub cell model
+** You will need to compile the mod files.
+
+    > nrnivmodl mod_hay/ 
+    if you want to run the Hay cell model
+    or
+    >nrnivmodl mod_traub/
+    if you want to run the Traub cell model
+
+** [TODO] Having to compile each time user wants to run the scrips \\
+   is annoying - find a better way to do this.
 
 * What do the scripts do?
 ** morph_compare.py
 *** Usage
-      > python morph_compare.py [option1*] [option2]
-      * - necessary
+
+      > python morph_compare.py [option1$] [option2]
+      $ - necessary
       Available option1 - Model name
       'Hay'
       'Traub'
@@ -37,6 +44,7 @@ Here we compare existing neocortical layer 5 pyramidal cells from modeldb
       False
 
 *** Does what?
+
     Shows the morphology of the cell in matplotlib 3D.
     Prints the following in terminal 
     1) the number of segments and sections
@@ -45,8 +53,9 @@ Here we compare existing neocortical layer 5 pyramidal cells from modeldb
    
 ** viz_cond.py
 *** Usage
-    > python viz_cond.py [option1*]
-    * - necessary
+
+    > python viz_cond.py [option1$]
+    $ - necessary
     Available option1
     'Hay'
     'Traub'
@@ -56,6 +65,7 @@ Here we compare existing neocortical layer 5 pyramidal cells from modeldb
     etc.
 
 *** Does what?
+
     Shows the colormapped morphology of a given parameter in 3D.
     This script is useful to map the channel conductances over the cell body
 
