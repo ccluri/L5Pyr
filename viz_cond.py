@@ -8,7 +8,7 @@ import sys
 
 def retrieve_coordinate(sec):
     sec.push()
-    x, y, z = [],[],[]
+    x, y, z = [], [], []
     connect_next = False
     for i in range(int(h.n3d())):
         present = False
@@ -36,7 +36,7 @@ def get_values(cell0, var_name='g_pas'):
             print 'No attribute called %s for %s' %(var_name, sec.name())
     return value_dict
 
-def main(cell_model='Hay', var_name='g_pas'):
+def main(cell_model='Hay', var_name='g_pas', save_pkl=False):
     h.load_file(cell_model+".hoc")
     cell0 = h.L5PC
     value_dict = get_values(cell0, var_name)
@@ -48,18 +48,23 @@ def main(cell_model='Hay', var_name='g_pas'):
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
     plt.hold(True)
+    all_coords = {}
     def onpick3(event):
         ind = event.artist
         print 'picking:', ind
-
     for sec in cell0.allsec():
         x, y, z = retrieve_coordinate(sec)
+        all_coords[sec.name().split('L5PCtemplate[0].')[-1]] = np.array((x, y, z))
         try:
             colorVal = scalarMap.to_rgba(value_dict[sec.name()])
         except(NameError,AttributeError):
             colorVal = (0.0,0.0,0.0,0.0)
         if len(x):
             hi = ax.plot([x[0],x[-1]],[y[0],y[-1]],[z[0],z[-1]],color=colorVal, picker=True, label=sec.name())
+    if save_pkl:
+        import pickle
+        with open('morphology.pkl', 'wb') as f:
+            pickle.dump(all_coords, f)
     fig.canvas.mpl_connect('pick_event', onpick3)
     ax.get_xaxis().set_ticks([])
     ax.get_yaxis().set_ticks([])
