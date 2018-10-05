@@ -38,6 +38,7 @@ def exp2(tt, tau_raise, tau_fall, onset):
 
 
 def square(tt, start, end, v_peak):
+    print('Square impuse')
     vv = []
     for ii, t in enumerate(tt):
         if t<start or t>end:
@@ -89,18 +90,25 @@ def run_sim(h, section_name, v_peak, tau_raise, tau_fall, onset=100):
     t_vec, soma_vm, sec_vm = record(soma, sec)
     h.execute('tstop = ' + str(tstop))
     h.run()
-    diff_v = np.array(s_v) - np.array(a_v)
+    diff_v = np.array(a_v) - np.array(s_v)
     return t_vec, soma_vm, sec_vm, diff_v, vv
 
-tstop = 500
-dt = 0.1
-tt = np.arange(0, 500, 0.01)
-dummy = exp2(tt, 5, 40, 100)
-t_vec, soma_vm, sec_vm, diff_v, vv = run_sim(h, 'apic[62]', 100, 10, 15)
+
+dendrite_name = 'apic[26]'
+t_vec, soma_vm, sec_vm, diff_v, vv = run_sim(h, dendrite_name, 100, 10, 15)
+plt.figure(figsize=(10,5))
 plt.subplot(121)
-plt.plot(t_vec, soma_vm, 'k')
-plt.plot(t_vec, sec_vm, 'r')
-plt.plot(np.arange(0, tstop, dt), vv, c='g')
+plt.plot(t_vec, soma_vm, 'k', label='V_soma')
+plt.plot(t_vec, sec_vm, 'r', label='V_'+dendrite_name)
+# tt = np.arange(0, 500, 0.01)
+# plt.plot(np.arange(0, tstop, dt), vv, c='g')
+plt.xlabel('Time (ms)')
+plt.ylabel('Membrane potential (mV)')
+plt.legend()
 plt.subplot(122)
-plt.plot(t_vec, diff_v / 0.13930698946266598, 'g', label='Currents')
+# h.ri(1e-3) # after access of apic[0] to get the  0.13930698946266598 - neuron blues
+plt.plot(t_vec, diff_v / 0.13930698946266598, 'g', label='apical 2 soma')
+plt.xlabel('Time (ms)')
+plt.ylabel('Axial current (nA)')
+plt.legend()
 plt.show()
